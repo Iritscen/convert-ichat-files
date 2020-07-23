@@ -4,3 +4,5 @@ If you have isolated .ichat files on your hard drive and wish that you didn't ha
 Notes:
 - This program was developed only as far as was needed to convert my set of test files (about 600 logs).  It's likely that there are various quirks in .ichat files out there in the wild that this program does not account for; feel free to report a bug if you find one.
 - This program is not fully Unicode-friendly, so names in a non-English alphabet may not be supported without a little additional work.
+
+![Preview](https://github.com/Iritscen/convert-ichat-files/blob/master/preview.jpg)

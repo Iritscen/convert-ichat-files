@@ -6,13 +6,12 @@
 IFS="
 "
 
-if [ -d "$1" ]; then
+if [ ! -d "$1" ]; then
    echo "You need to supply a directory to me!"
    exit
 fi
 
-cd "$1"
-for THE_FILE in `find . | grep -E "\.ichat"`
+for THE_FILE in `find "$1" | grep -E "\.ichat"`
 do
    #"./Build/Convert ichat Files" -mode convert -input "$THE_FILE" -format RTF --trim-email-ids --overwrite
    #"./Build/Convert ichat Files" -mode convert -input "$THE_FILE" -format RTF --overwrite
